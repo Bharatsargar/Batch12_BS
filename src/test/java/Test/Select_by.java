@@ -26,6 +26,7 @@ public class Select_by {
 		Thread.sleep(2000);
 		sel.selectByValue("INDIA");
 		Thread.sleep(2000);
+		
 		sel.selectByVisibleText("ITALY");
 		
 	List<WebElement> list=sel.getOptions();

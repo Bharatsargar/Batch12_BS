@@ -36,7 +36,7 @@ public class a2 {
 		Thread.sleep(5000);
 		driver.navigate().back();
 		driver.close();
-		
+
 		
 	}
 

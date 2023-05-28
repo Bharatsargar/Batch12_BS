@@ -1,3 +1,4 @@
+
 package Test;
 
 import org.openqa.selenium.By;
@@ -26,7 +27,7 @@ public class Drag_drop {
 		act.dragAndDrop(bank, account).build().perform();
 		act.dragAndDrop(rs500, ammount_bx).build().perform();
 		
-		
+	
 		
 		
 		

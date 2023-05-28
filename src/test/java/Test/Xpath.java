@@ -22,7 +22,7 @@ public class Xpath {
 		// //tagname[@text()='text value']
 		// Ex //a[text()='Forgotten password?']
 	// X path by contains:
-		// //tagname[contains(attribute,'value')]
+		// //tagname[contains(@attribute,'value')]
 		//Ex: //button[contains(@id,'u_0_5_aW')] this id is dynamic it will change after refresh
 	// X path by index------in this situation we select the perticular Webelment in multiple web elements
 			// Ex : multiple radio button but select one by index 

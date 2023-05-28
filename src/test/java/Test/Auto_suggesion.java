@@ -24,7 +24,9 @@ public class Auto_suggesion {
 		
 		List<WebElement> list=driver.findElements(By.xpath("//ul[@class='erkvQe']//li"));
 		System.out.println(list.size());
-		for(int i=0;i<=list.size();i++) {
+		for(int i=0;i<=list.size()
+				
+				;i++) {
 			System.out.println(list.get(i).getText());
 			if(list.get(i).getText().equals("aadhar card password")){
 				list.get(i).click();

@@ -29,7 +29,7 @@ public class Alert_1 {
 		String text=alt.getText();
 		System.out.println(text);
 		alt.accept();
-		
+		//alt.dismiss();
 		
 		
 		

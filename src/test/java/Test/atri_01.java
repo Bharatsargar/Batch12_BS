@@ -26,12 +26,7 @@ public class atri_01 {
 		driver.navigate().refresh();
 		Thread.sleep(2000);
 		driver.close();
-		
-		
-		
-		
-		
-		
+			
 		
 	}
 
